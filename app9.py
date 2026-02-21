@@ -22,7 +22,7 @@ def predict():
         data = request.get_json()
 
         # Arrange features EXACTLY as training order
-        features = np.array([[
+        features = np.array([[ 
             data["Age"],
             data["Gender"],
             data["Stream"],
